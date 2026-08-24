@@ -13949,77 +13949,7 @@ mjx-c.mjx-c25BD.TEX-A::before {
   padding: 0.576em 0.722em 0.019em 0;
   content: "\25BD";
 }
-
-body {
-  /* Center the form on the page */
-  text-align: center;
-}
-
-form {
-  display: inline-block;
-  /* Form outline */
-  padding: 1em;
-  border: 1px solid #cccccc;
-  border-radius: 1em;
-}
-
-p + p {
-  margin-top: 1em;
-}
-
-label {
-  /* Uniform size & alignment */
-  display: inline-block;
-  min-width: 90px;
-  text-align: right;
-}
-
-input,
-textarea {
-  /* To make sure that all text fields have the same font settings
-     By default, text areas have a monospace font */
-  font: 1em sans-serif;
-  /* Uniform text field size */
-  width: 300px;
-  box-sizing: border-box;
-  /* Match form field borders */
-  border: 1px solid #999999;
-}
-
-input:focus,
-textarea:focus {
-  /* Set the outline width and style */
-  outline-style: solid;
-  /* To give a little highlight on active elements */
-  outline-color: black;
-}
-
-textarea {
-  /* Align multiline text fields with their labels */
-  vertical-align: top;
-  /* Provide space to type some text */
-  height: 5em;
-}
-
-.button {
-  /* Align buttons with the text fields */
-  padding-left: 90px; /* same size as the label elements */
-}
-
-button {
-  /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields */
-  margin-left: 0.5em;
-}
 </style></head><body>
-
-
-  
-  
-
-  
-  
-
 
 
   <header>
@@ -14029,17 +13959,16 @@ button {
       <a rel="noopener" href="#about">About</a>
       <a rel="noopener" href="#roadmap">This Semester</a>
       <a rel="noopener" href="#photo">Gallery</a>
-      <a rel="noopener" href="#contact">Contact</a>
+      <a href ="contact.html" target="_blank" rel="noopener">Contact</a>
     </nav>
   </header>
 
   <main>
     <section>
       <h2>About Me</h2>
-      <p>Hi! I'm a student in Internet Programming, and this is the 
-first page I've ever put live on the web. My name is Camille Ahumada, 
-I usually go by Cammy, but feel free to call me either name. I am majoring in Computer Science with a concentration in Web Development! 
-I am born and raised in Califronia and currently am attending Columbus State University, so I am a long way from home!</p>
+      <p>Hi! My name is Camille Ahumada, I'm a student in Internet Programming :D! I usually go by Cammy, but feel free to call me either name. 
+I am majoring in Computer Science with a concentration in Web Development! A fun fact about me is that I am from Califronia \
+and currently I am attending Columbus State University, so I am a long way from home!</p>
     </section>
 
     <section>
@@ -14067,28 +13996,6 @@ you'll layer in the skills below ; often by editing this very page.</p>
     <section>
       <h2>Get In Touch</h2>
       <p>Add your email, a social link, or however you'd like classmates to be able to reach you.</p>
-      
-      <form action="/my-handling-form-page" method="post">...</form>
-        <p>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="user_name">
-        </p>
-        <p>
-          <label for="mail">Email:</label>
-          <input type="email" id="mail" name="user_email" />
-        </p>
-        <p>
-          <label for="msg">Message</label>
-          <textarea id="msg" name="user_message"></textarea>
-        </p>
-      </form>
-
-      <p class="button">
-        <button type="submit">Send your message</button>
-      </p>
-
-        
-      </p>
     </section>
   </main>
 
