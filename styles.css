@@ -55,7 +55,7 @@ body {
 }
 
 .form-box button:hover {
-  background-color: #F06A8C;
+  background-color: #d94c6f;
 }
 
 header {
@@ -93,9 +93,9 @@ max-width: 760px;
 
 section { margin-bottom: 3rem; }
 
-* section h2 {
+h2 {
   color: #F06A8C;
-  border-bottom: 2px solid #F788B0;
+  border-bottom: 2px solid #ffb7ce;
   padding-bottom: 0.4rem;
 }
 
@@ -103,6 +103,8 @@ section { margin-bottom: 3rem; }
   max-width: 500px;
   margin: 0 auto;
   text-align: center;
+  border-bottom: 2px solid #ffb7ce;
+  padding-bottom: 0.4rem;
 }
 
 .skills-grid {
