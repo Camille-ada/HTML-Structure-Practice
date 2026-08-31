@@ -65,7 +65,6 @@ body {
 }
 /*contact form styles end*/
 
-
 header {
   background: #F06A8C;
   color: #fff;
@@ -110,7 +109,6 @@ h2 {
 /* h2 type selector end */
 
 /* Semester Schedule */
-
 .semester-container {
   display: inline-flex;
   flex-direction: column;
@@ -122,6 +120,7 @@ h2 {
   border: 2px solid rgb(200 200 200);
   letter-spacing: 1px;
   font-size: 0.8rem;
+  color: #c1437a;
 }
 
 .semester-table caption {
