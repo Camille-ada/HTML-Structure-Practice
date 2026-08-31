@@ -10,15 +10,42 @@ body {
 
 .form-box {
   border: 5px solid #d0637c;
-  background-color: f7f9fb;
+  background-color: #fff;
   padding: 40px;
-  margin: 40px;
-  width: 300px;
-  height: 150px;
+  margin: 40px auto;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  height: auto;
 }
 
-.alternate {
-  box-sizing: border-box;
+.form-box input,
+.form-box textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.form-box textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form-box button {
+  background-color: #d0637c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background-color: #b94f67;
 }
 
 header {
