@@ -99,6 +99,12 @@ section h2 {
   padding-bottom: 0.4rem;
 }
 
+.contact-title {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
