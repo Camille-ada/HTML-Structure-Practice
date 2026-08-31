@@ -1,122 +1,98 @@
-<style>
-    html {
-      font-family: sans-serif;
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Fall 2026 Semester Schedule</title>
+</head>
 
-    body {
-      margin: 0 20px;
-    }
+<body>
 
-    table {
-      border-collapse: collapse;
-      border: 2px solid rgb(200 200 200);
-      letter-spacing: 1px;
-      font-size: 0.8rem;
-    }
+  <main>
 
-    caption {
-        caption-side: top;
-        text-align: center;
-        width: 100%;
-    }
+    <div class="semester-container">
+      <h2>Fall 2026 semester schedule</h2>
 
-    td,
-    th {
-      border: 1px solid rgb(190 190 190);
-      padding: 10px 20px;
-    }
-
-    td {
-      text-align: center;
-    }
-    .column-background {
-      background-color: #EABEC3
-    }
-
-    .column-fixed-width {
-      width: 40px;
-    }
-
-    .column-background-border {
-      background-color: #EABEC3;
-      border: 4px solid #c1437a;
-    }
-</style>
-
-<div style="display: inline-flex; flex-direction: column; align-items: center;">
-    <h2>Fall 2026 semester schedule</h2>
-
-    <table>
+      <table class="semester-table">
         <caption>
-            My classes for the semester! <br> 
-            (Not counting online classes)
+          My classes for the semester! <br>
+          (Not counting online classes)
         </caption>
-        
+
         <colgroup>
-        <col class="column-background">
-        <col class="column-background-border" />
-        <col class="column-background column-fixed-width" />
-        <col class="column-background-border" />
-        <col class="column-background column-fixed-width" />
-        <col class="column-background column-fixed-width"/>
-        <col class="column-background column-fixed-width" />
-        <col class="column-background column-fixed-width" />
+          <col class="column-background">
+          <col class="column-background-border">
+          <col class="column-background column-fixed-width">
+          <col class="column-background-border">
+          <col class="column-background column-fixed-width">
+          <col class="column-background column-fixed-width">
+          <col class="column-background column-fixed-width">
+          <col class="column-background column-fixed-width">
         </colgroup>
 
         <thead>
-            <tr>
-                 <th scope="col">&nbsp;</th>
-                 <th scope="col">Mon</th>
-                 <th scope="col">Tues</th>
-                 <th scope="col">Wed</th>
-                 <th scope="col">Thurs</th>
-                 <th scope="col">Fri</th>
-                 <th scope="col">Sat</th>
-                 <th scope="col">Sun</th>
-                </tr>
-            </thead>
+          <tr>
+            <th scope="col">&nbsp;</th>
+            <th scope="col">Mon</th>
+            <th scope="col">Tues</th>
+            <th scope="col">Wed</th>
+            <th scope="col">Thurs</th>
+            <th scope="col">Fri</th>
+            <th scope="col">Sat</th>
+            <th scope="col">Sun</th>
+          </tr>
+        </thead>
 
         <tbody>
-            <tr>
-                <th scope="row">1st period</th>
-                <td>Computer Networks</td>
-                <td>&nbsp;</td>
-                <td>Computer Networks</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <th scope="row">2nd period</th>
-                <td>Operating Systems</td>
-                <td>&nbsp;</td>
-                <td>Operating Systems</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <th scope="row">3rd period</th>
-                <td>BREAK</td>
-                <td>&nbsp;</td>
-                <td>BREAK</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <th scope="row">4th period</th>
-                <td>Software Engineering</td>
-                <td>&nbsp;</td>
-                <td>Software Engineering</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
+          <tr>
+            <th scope="row">1st period</th>
+            <td>Computer Networks</td>
+            <td>&nbsp;</td>
+            <td>Computer Networks</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+
+          <tr>
+            <th scope="row">2nd period</th>
+            <td>Operating Systems</td>
+            <td>&nbsp;</td>
+            <td>Operating Systems</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+
+          <tr>
+            <th scope="row">3rd period</th>
+            <td>BREAK</td>
+            <td>&nbsp;</td>
+            <td>BREAK</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+
+          <tr>
+            <th scope="row">4th period</th>
+            <td>Software Engineering</td>
+            <td>&nbsp;</td>
+            <td>Software Engineering</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
         </tbody>
-    </table>
-</div>
+      </table>
+    </div>
+
+  </main>
+
+</body>
+</html>
