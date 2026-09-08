@@ -174,10 +174,13 @@ figcaption {
 }
 /*contact page title end */
 
+
 /*contact form styles*/
 .form-box {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 20px;
 
   border: 5px solid #F06A8C;
   background-color: #fff;
@@ -186,18 +189,16 @@ figcaption {
   width: 100%;
   max-width: 500px;
   border-radius: 8px;
-  box-sizing: border-box;
 }
 
 .form-box p {
   display: flex;
   flex-direction: column;
-  margin: 0 0 20px;
+  margin: 0;
 }
 
 .form-box p.button {
   align-items: center;
-  margin-bottom: 0;
 }
 
 .form-box input,
@@ -208,12 +209,12 @@ figcaption {
   border: 1px solid #ccc;
   border-radius: 4px;
   font-family: inherit;
-  box-sizing: border-box;
 }
 
 .form-box textarea {
   min-height: 120px;
   resize: vertical;
+  font-family: inherit;
 }
 
 .form-box button {
@@ -302,9 +303,10 @@ footer {
   .welcome-grid #roadmap,
   .welcome-grid #contact {
     grid-column: 1;
+    grid-row: auto;
   }
 
-  /* Gallery, kratos img smaller */
+  /* Gallery, Kratos image smaller */
   figure img {
     max-width: 200px;
     margin: 0 auto;
