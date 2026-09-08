@@ -294,10 +294,12 @@ footer {
 /* Responsive layout */
 @media (max-width: 600px) {
 
+  /* Changes welcome pg from two columns to one */
   .welcome-grid {
     grid-template-columns: 1fr;
   }
 
+  /* Reset the desktop Grid positioning */
   .welcome-grid #about,
   .welcome-grid #photo,
   .welcome-grid #roadmap,
@@ -306,7 +308,7 @@ footer {
     grid-row: auto;
   }
 
-  /* Gallery, Kratos image smaller */
+  /* Gallery image becomes smaller */
   figure img {
     max-width: 200px;
     margin: 0 auto;
