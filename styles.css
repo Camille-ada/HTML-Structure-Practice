@@ -315,3 +315,10 @@ footer {
   }
 }
 /* Responsive layout end */
+
+/* Stuff for my DOM practice page below */
+
+/* Hidden class for toggle test */
+  .hidden {
+  display: none;
+}
