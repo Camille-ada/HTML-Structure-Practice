@@ -20,13 +20,9 @@ toggleBtn.addEventListener('click', () => {
 
 // 3. Live input echo
 const echoInput = document.querySelector('#echo-input');
-echoInput.style.color = "#F06A8C";
 const echoOutput = document.querySelector('#echo-output');
-echoOutput.style.color = "#F06A8C";
 
-const myElement = document.querySelector('.#echo-output');
-myElement.style.color = 'pink'; 
-
+echoOutput.style.color = '#F06A8C';
 
 echoInput.addEventListener('input', () => {
     echoOutput.textContent = echoInput.value;
@@ -39,11 +35,13 @@ const itemList = document.querySelector('#item-list');
  
 function addListItem() {
   const text = listInput.value.trim();
-  text.style.color = "#F06A8C";
   if (text === '') return;
  
   const li = document.createElement('li');
   li.textContent = text;
+
+  li.style.color = '#F06A8C"'; 
+
   itemList.appendChild(li);
  
   listInput.value = '';
