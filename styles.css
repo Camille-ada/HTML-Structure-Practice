@@ -217,18 +217,24 @@ figcaption {
   font-family: inherit;
 }
 
-.form-box button {
+/* also for contact form buttons and any buttons in general */
+/* Button styles */
+button {
   background-color: #F06A8C;
   color: white;
   border: none;
   padding: 10px 20px;
   border-radius: 4px;
   cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
 }
 
-.form-box button:hover {
+button:hover {
   background-color: #d94c6f;
 }
+/* Button styles end */
+
 /*contact form styles end*/
 
 

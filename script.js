@@ -26,3 +26,28 @@ echoInput.addEventListener('input', () => {
     echoOutput.textContent = echoInput.value;
 });
 
+// 4. Dynamic list
+const listInput = document.querySelector('#list-input');
+const listAddBtn = document.querySelector('#list-add-btn');
+const itemList = document.querySelector('#item-list');
+ 
+function addListItem() {
+  const text = listInput.value.trim();
+  if (text === '') return;
+ 
+  const li = document.createElement('li');
+  li.textContent = text;
+  itemList.appendChild(li);
+ 
+  listInput.value = '';
+  listInput.focus();
+}
+ 
+listAddBtn.addEventListener('click', addListItem);
+ 
+// Also allow pressing Enter in the input to add the item
+listInput.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter') {
+    addListItem();
+  }
+});
