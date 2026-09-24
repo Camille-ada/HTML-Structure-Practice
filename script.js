@@ -17,3 +17,12 @@ const toggleValue = document.querySelector('#toggle-text');
 toggleBtn.addEventListener('click', () => {
     toggleValue.classList.toggle('hidden');
 });
+
+// 3. Live input echo
+const echoInput = document.querySelector('#echo-input');
+const echoOutput = document.querySelector('#echo-output');
+
+echoInput.addEventListener('input', () => {
+    echoOutput.textContent = echoInput.value;
+});
+
