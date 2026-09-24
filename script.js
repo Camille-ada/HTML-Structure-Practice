@@ -1,4 +1,5 @@
 // 1. click counter
+
 const counterBtn = document.querySelector('#counter-btn');
 const counterValue = document.querySelector('#counter-value');
  
