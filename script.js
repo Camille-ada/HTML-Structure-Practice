@@ -10,3 +10,10 @@ counterBtn.addEventListener('click', () => {
   counterValue.textContent = count;
 });
 
+// 2. toggle test
+const toggleBtn = document.querySelector('#toggle-btn');
+const toggleValue = document.querySelector('#toggle-text');
+
+toggleBtn.addEventListener('click', () => {
+    toggleValue.classList.toggle('hidden');
+});
